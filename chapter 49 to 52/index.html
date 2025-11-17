@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+ <!-- <form id="signupForm" onsubmit="submitForm(event)">
+  Name: <input type="text" placeholder="Enter your name" id="name"><br>
+  Email: <input type="email" placeholder="Enter your email" id="email"><br>
+  Phone: <input type="tel" placeholder="Enter your phone" id="phone"><br>
+  <button type="submit">Submit</button>
+</form>
+
+<div id="display"></div> -->
+
+
+
+<!-- 
+<p id="text">
+  Slow lorises are a group of several species of strepsirrhine primates...
+</p>
+
+<button id="readMoreBtn" onclick="expandText()">Read More</button>
+<button id="readLessBtn" onclick="collapseText()" style="display:none;">Read Less</button> -->
+
+<h2>Add Student</h2>
+<form id="studentForm">
+    <input type="text" id="name" placeholder="Name" required>
+    <input type="number" id="age" placeholder="Age" required>
+    <input type="text" id="cls" placeholder="Class" required>
+    <button type="submit">Add Student</button>
+</form>
+<h2>Students Table</h2>
+<table border="1" width="60%">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Class</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+</table>
+
+<div id="editBox" style="display: none; margin-top:20px;">
+    <h3>Edit Student</h3>
+    <input type="text" id="editName">
+    <input type="number" id="editAge">
+    <input type="text" id="editCls">
+    <button onclick="saveEdit()">Save Changes</button>
+</div>
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
